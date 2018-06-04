@@ -1,5 +1,6 @@
 __author__ = 'Administrator'
 #coding=utf-8
+#https://dev.mysql.com/downloads/connector/python/下载版本
 import mysql.connector
 # 打开数据库连接
 conn=mysql.connector.connect(host='localhost',port=3306,user='root',passwd='root',db='test')
